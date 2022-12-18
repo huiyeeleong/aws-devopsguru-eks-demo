@@ -6,15 +6,15 @@ echo "Bootstrap initial cluster and node group"
   cd cluster_bootstrap && sh create_cluster.sh || exit 1
 )
 
-echo "Install kube dashboard"
-(
-  cd kubernetes_dashboard && sh install_dashboard.sh || exit 1
-)
+# echo "Install kube dashboard"
+# (
+#   cd kubernetes_dashboard && sh install_dashboard.sh || exit 1
+# )
 
-echo "Install ChaosMesh"
-(
-  cd chaos_mesh && sh install_chaos_mesh.sh || exit 1
-)
+# echo "Install ChaosMesh"
+# (
+#   cd chaos_mesh && sh install_chaos_mesh.sh || exit 1
+# )
 
 # echo "Install prometheus"
 # (
