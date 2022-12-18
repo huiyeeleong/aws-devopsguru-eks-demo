@@ -1,8 +1,4 @@
 #!/bin/sh
-<<<<<<< HEAD
-
-=======
->>>>>>> 421212f (Added new eks deployment)
 helm repo add chaos-mesh https://charts.chaos-mesh.org
 
 kubectl create namespace chaos-testing
