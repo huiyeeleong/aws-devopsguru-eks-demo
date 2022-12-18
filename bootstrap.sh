@@ -1,8 +1,4 @@
 #!/bin/sh
-<<<<<<< HEAD
-
-=======
->>>>>>> 421212f (Added new eks deployment)
 export AWS_PAGER=""
 
 echo "Bootstrap initial cluster and node group"
